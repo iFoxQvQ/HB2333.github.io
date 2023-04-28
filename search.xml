@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>VMware虚拟机整软路由</title>
+      <link href="/2023/04/24/openwrt/"/>
+      <url>/2023/04/24/openwrt/</url>
+      
+        <content type="html"><![CDATA[<h2 id="先去下载VMware虚拟机"><a href="#先去下载VMware虚拟机" class="headerlink" title="先去下载VMware虚拟机"></a>先去下载VMware虚拟机</h2><ol><li>典型</li><li>稍后安装操作系统</li><li>Linux</li><li>命名一下，选择一个存放的文件夹</li><li>硬盘默认，单个文件</li><li>设置</li><li>内存1g，处理器1，删掉硬盘、CD/DVD、声卡、打印机</li><li>网络适配器选择桥接模式，复制物理网络状态</li><li>硬盘选择下面的固件vmdk格式</li><li>进入系统后。</li><li>vi /etc/config/network   去更改一下ip为自己的ip网段，最后一个改个空的，就是OpenWRT登录ip了<br>:wq                                    返回<br>reboot                              重启</li><li>去网路-接口-lan改一下网关和DNS服务器，内容和主路由网关一致</li><li>下面DHCP服务器勾选忽略此接口</li></ol><h4 id="此处下载OpenWRT固件，用第二个img转VMDK转换器转换一下"><a href="#此处下载OpenWRT固件，用第二个img转VMDK转换器转换一下" class="headerlink" title="此处下载OpenWRT固件，用第二个img转VMDK转换器转换一下"></a>此处下载OpenWRT固件，用第二个img转VMDK转换器转换一下</h4><p><a href="https://drive.google.com/drive/folders/1dqNUrMf9n7i3y1aSh68U5Yf44WQ3KCuh">esirPG - Google 云端硬盘</a></p><p><a href="https://www.cr173.com/soft/251830.html">VMWare和Virtual 虚拟机格式互转工具(StarWind Converter)下载2.0 绿色版-西西软件下载 (cr173.com)</a></p><h4 id="然后去这里下载OpenWRT内核"><a href="#然后去这里下载OpenWRT内核" class="headerlink" title="然后去这里下载OpenWRT内核"></a>然后去这里下载OpenWRT内核</h4><p><strong>Dev 内核下载：<a href="https://github.com/vernesong/OpenClash/releases/tag/Clash">https://github.com/vernesong/OpenClash/releases/tag/Clash</a></strong></p><p><strong>Tun 内核下载：<a href="https://github.com/vernesong/OpenClash/releases/tag/TUN-Premium">https://github.com/vernesong/OpenClash/releases/tag/TUN-Premium</a></strong></p><p><strong>Tun 游戏内核：<a href="https://github.com/vernesong/OpenClash/releases/tag/TUN">https://github.com/vernesong/OpenClash/releases/tag/TUN</a></strong></p><h2 id="不懂的话去这里看教程！！！"><a href="#不懂的话去这里看教程！！！" class="headerlink" title="不懂的话去这里看教程！！！"></a>不懂的话去这里看教程！！！</h2><p><strong>视频演示教学：****<a href="https://youtu.be/92HNLkqabIg">https://youtu.be/92HNLkqabIg</a></strong></p><p><a href="https://www.youtube.com/watch?v=ueNHvPnvl8s">(23) 软路由翻墙教程，免费使用openwrt 科学上网，vmware虚拟机安装openwrt设置旁路由|x86固件虚拟机镜像 - YouTube</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 梯子 </tag>
+            
+            <tag> OpenWRT </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>白嫖CloudFlare WARP梯子</title>
+      <link href="/2023/04/17/cfwarp/"/>
+      <url>/2023/04/17/cfwarp/</url>
+      
+        <content type="html"><![CDATA[<p>本篇教程来源于 <a href="https://blog.misaka.rest/2023/02/08/cf-warp/">CloudFlare WARP 官方客户端详细使用教程 （持续更新） | MisakaNo の 小破站</a> </p><p>此处属于自用防忘，请支持原作。</p><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><h5 id="下载并安装客户端"><a href="#下载并安装客户端" class="headerlink" title="下载并安装客户端"></a>下载并安装客户端</h5><p>​    打开 <a href="https://1.1.1.1/">https://1.1.1.1</a> 或 <a href="https://one.one.one.one/">https://one.one.one.one</a> ，选择适合自己平台的客户端下载<img src="https://s2.loli.net/2023/04/17/qzxQmL86XSKYabN.png"></p><h3 id="启动客户端并连接节点"><a href="#启动客户端并连接节点" class="headerlink" title="启动客户端并连接节点"></a>启动客户端并连接节点</h3><p>为什么我会在这里说呢？因为我们如果正常启动CloudFlare WARP时候，由于注册服务域名被GFW阻断，因此就有可能遇到无法注册的问题。</p><ol><li>第一次打开客户端之前，需要打开代理软件的真全局模式（例如：Clash的TUN模式），如在手机上则打开任意代理软件即可</li><li>进入设置选项，如Device ID出现非0000的字符串时，即为注册成功<img src="https://s2.loli.net/2023/04/17/JxMS8NGjmfB5vTU.png"></li></ol><p><img src="https://s2.loli.net/2023/04/17/aWpCtXus6BiyfT5.png"></p><p>3.断开并关闭代理软件，连接WARP。如出现Connected即为连接成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">如一直处在Connecting状态，则说明目前WARP服务已被GFW阻断</span><br></pre></td></tr></table></figure><h3 id="更换WARP-密钥"><a href="#更换WARP-密钥" class="headerlink" title="更换WARP+密钥"></a>更换WARP+密钥</h3><p><img src="https://s2.loli.net/2023/04/17/y4rca6UhLbQZCVi.png"></p><p><img src="https://s2.loli.net/2023/04/17/hlRevxmELUKTrDB.png"></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">更换秘钥后重新开关就行了</span><br></pre></td></tr></table></figure><h3 id="秘钥获取方法"><a href="#秘钥获取方法" class="headerlink" title="秘钥获取方法"></a>秘钥获取方法</h3><p>​    添加此机器人</p><p>​    <a href="https://t.me/generatewarpplusbot">https://t.me/generatewarpplusbot</a></p><p>​    回答完验证问题即可获得秘钥</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 梯子 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Win10“无法登陆到你的账户”</title>
+      <link href="/2023/04/08/WindowsUserNameChange/"/>
+      <url>/2023/04/08/WindowsUserNameChange/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://s2.loli.net/2023/04/08/mlirwuQUj71dX5A.png"><br>\1.Win + r 输入regedit，回车，打开注册表。</p><p><img src="https://s2.loli.net/2023/04/08/VRfEz76s9rgMWoK.png"></p><p>\2. 定位到HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList</p><p><img src="https://s2.loli.net/2023/04/08/yAN1cdE6Bvo7qeU.png"></p><p>\3. 然后找到S-1-5-21-xxxxxxxx（xxxxx表示数字)，应该会有两个及以上的S-1-5-21开头，结尾带有bak的文件。依次点击，在右边找到ProfileImagePath，然后双击查看它的数值数据，看有没有和User文件夹常用名称相同的，如果有的话，点击修改成您想要修改成的用户名，然后确定，重启。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初来乍到，不点进来喝杯茶吗QvQ</title>
+      <link href="/2022/05/20/hello/"/>
+      <url>/2022/05/20/hello/</url>
+      
+        <content type="html"><![CDATA[<h2 id="3-ヽ-先喝杯茶啦"><a href="#3-ヽ-先喝杯茶啦" class="headerlink" title="(:3_ヽ)_先喝杯茶啦~"></a>(:3_ヽ)_先喝杯茶啦~</h2><h3 id="序言"><a href="#序言" class="headerlink" title="序言"></a>序言</h3><p>​        弄一个属于自己的小天地是我的一个小梦想，毕竟谁都希望自己有个空间能蹲一蹲，放点东西，或者是躺在这里面休息。所以就出现了这个Blog~</p><h3 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h3><p>​        曾经在初二的时候（好像吧？）就有过膜拜大佬们能够自己创作自己的网站。当时正值玩MC学MC里的指令，刚好有点兴趣的时候就选择自学http。当时真的就是手操网站（累死了）还懒得学css和js。导致我提前放弃。(；д；)。</p><p>​        不过到现在考上了自己想要的专业（但是没考上自己想要的大学），认识了很多大佬，也学会了自己动手做有趣的东西，像QQ机器人呀（老是被风控，烦死了，<a href="https://github.com/HibiKier/zhenxun_bot/tree/main">机器人出自这里哦~</a>），这个Blog网站呀。相比身边的人，自己进步了很多，也很开心（但是我不卷啊，可恶，卷王们太卷了，我菜又爱玩(¦3[▓▓]）</p><p>​        To be continue…（会持续更新，大概吧ヾ(๑╹◡╹)ﾉ”）</p><h3 id="末尾"><a href="#末尾" class="headerlink" title="末尾"></a>末尾</h3><p>希望大家能在Blog里开森交流，又或者能在其中学习到什么，我也就知足啦(๑╹ヮ╹๑)ﾉ</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 闲聊 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 茶会 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>常见图形</title>
+      <link href="/2022/05/19/imaMath/"/>
+      <url>/2022/05/19/imaMath/</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th align="center">圆柱面</th><th align="center"><strong>x²＋y²＝R²</strong></th></tr></thead><tbody><tr><td align="center">椭圆柱面</td><td align="center">x²/a²+y²/b²=1</td></tr><tr><td align="center">双曲柱面</td><td align="center">x²/a²-y²/b²=1</td></tr><tr><td align="center">抛物柱面</td><td align="center">x²=2ay或y²＝2ax</td></tr><tr><td align="center">圆锥面</td><td align="center">(x²+y²)/a²-z²/b²=0</td></tr><tr><td align="center">球面</td><td align="center">(x-a)²＋(y-b)²＋(z-c)²=r²</td></tr><tr><td align="center">椭圆锥面</td><td align="center">x²/a²+y²/b²-z²/c²=0</td></tr><tr><td align="center">椭球面</td><td align="center">x²/a²+y²/b²+z²/c²=1</td></tr><tr><td align="center">椭圆抛物面</td><td align="center">x²/2a+y²/2b=z</td></tr><tr><td align="center">单叶双曲面</td><td align="center">x²/a²+y²/b²-z²/c²=1</td></tr><tr><td align="center">双叶双曲面</td><td align="center">x²/a²-y²/b²-z²/c²=-1</td></tr><tr><td align="center">双曲抛物面 (马鞍面)</td><td align="center">x²/a²-y²/b²=z</td></tr></tbody></table><h3 id="备注："><a href="#备注：" class="headerlink" title="备注："></a>备注：</h3><p>x、y、z为未知数</p><p>a、b、c为已知数</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo的spawn failed错误与解决方法。</title>
+      <link href="/2022/05/19/hexo%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98/"/>
+      <url>/2022/05/19/hexo%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题描述："><a href="#问题描述：" class="headerlink" title="问题描述："></a>问题描述：</h2><ol><li><p>先是出现错误：</p><p><code>error：spawn failed...</code></p></li><li><p>然后经过一些博客的操作会出现以下问题：</p><p><code>fatal: cannot lock ref &#39;HEAD&#39;: unable to resolve reference HEAD: Invalid argument error: src refspec</code></p></li><li><p>或者：</p><p><code>error: src refspec HEAD does not match any.</code></p><p>等等</p></li></ol><h4 id="总结一下"><a href="#总结一下" class="headerlink" title="总结一下"></a>总结一下</h4><p>问题大多是因为<code>git</code>进行<code>push</code>或者<code>hexo d</code>的时候改变了一些<code>.deploy_git</code>文件下的内容。</p><h2 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h2><ol><li>删除<code>.deploy_git</code>文件夹;</li><li>输入<code>git config --global core.autocrlf false</code></li><li>然后，依次执行：<br><code>hexo clean</code><br><code>hexo g</code><br><code>hexo d</code></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 建站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
