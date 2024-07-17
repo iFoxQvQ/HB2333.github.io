@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>狐饼ifox-Blog</title>
   
-  
+  <subtitle>本Blog的图片均在github挂载，请记得切换网络环境哦~QuQ</subtitle>
   <link href="https://blog.ifox.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.ifox.moe/"/>
