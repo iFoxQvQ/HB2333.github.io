@@ -1400,7 +1400,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://s2.loli.net/2023/03/22/u59k7rNc2haSAwe.jpg);
+  background: url(https://s2.loli.net/2024/09/29/ge1RA3CjQGrpWSO.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -4565,7 +4565,7 @@ span.mathjax-overflow {
   border-radius: 5px !important;
 }
 [data-theme="dark"] #web_bg {
-  background: url(https://s2.loli.net/2023/03/22/xGrFgXAEKWcP2kp.jpg);
+  background: url(https://s2.loli.net/2024/09/29/I1NKUzkQFT8wiP7.jpg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -4573,14 +4573,14 @@ span.mathjax-overflow {
 }
 @media screen and (max-width: 800px) {
   #web_bg {
-    background: url(https://s2.loli.net/2023/03/22/u59k7rNc2haSAwe.jpg) !important;
+    background: url(https://s2.loli.net/2024/09/29/ge1RA3CjQGrpWSO.jpg) !important;
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
   [data-theme="dark"] #web_bg {
-    background: url(https://s2.loli.net/2023/03/22/xGrFgXAEKWcP2kp.jpg) !important;
+    background: url(https://s2.loli.net/2024/09/29/I1NKUzkQFT8wiP7.jpg) !important;
     background-attachment: local !important;
     background-position: center !important;
     background-size: cover !important;
