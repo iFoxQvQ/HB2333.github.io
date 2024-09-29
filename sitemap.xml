@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.ifox.moe/2024/09/29/QuestBSReplay/</loc>
+    
+    <lastmod>2024-09-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ifox.moe/2024/07/25/githubPR/</loc>
     
     <lastmod>2024-07-25</lastmod>
@@ -178,13 +187,6 @@
   </url>
   
   <url>
-    <loc>https://blog.ifox.moe/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ifox.moe/tags/Windows/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -192,14 +194,14 @@
   </url>
   
   <url>
-    <loc>https://blog.ifox.moe/tags/%E6%A2%AF%E5%AD%90/</loc>
+    <loc>https://blog.ifox.moe/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.ifox.moe/tags/%E8%8C%B6%E4%BC%9A/</loc>
+    <loc>https://blog.ifox.moe/tags/%E6%A2%AF%E5%AD%90/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -227,7 +229,28 @@
   </url>
   
   <url>
+    <loc>https://blog.ifox.moe/tags/%E8%8C%B6%E4%BC%9A/</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ifox.moe/tags/OpenWRT/</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ifox.moe/tags/Quest/</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ifox.moe/tags/beatsaber/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -243,6 +266,13 @@
   </url>
   
   <url>
+    <loc>https://blog.ifox.moe/categories/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ifox.moe/categories/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -250,7 +280,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ifox.moe/categories/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/</loc>
+    <loc>https://blog.ifox.moe/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

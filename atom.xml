@@ -6,7 +6,7 @@
   <link href="https://blog.ifox.moe/atom.xml" rel="self"/>
   
   <link href="https://blog.ifox.moe/"/>
-  <updated>2024-07-25T13:04:56.000Z</updated>
+  <updated>2024-09-29T15:00:00.000Z</updated>
   <id>https://blog.ifox.moe/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Quest 2 一体机版 beatsaber 节奏光剑 回放+添加模型</title>
+    <link href="https://blog.ifox.moe/2024/09/29/QuestBSReplay/"/>
+    <id>https://blog.ifox.moe/2024/09/29/QuestBSReplay/</id>
+    <published>2024-09-28T16:00:00.000Z</published>
+    <updated>2024-09-29T15:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Quest-2-一体机版-beatsaber-节奏光剑-回放-添加模型"><a href="#Quest-2-一体机版-beatsaber-节奏光剑-回放-添加模型" class="headerlink" title="Quest 2 一体机版 beatsaber 节奏光剑 回放+添加模型"></a>Quest 2 一体机版 beatsaber 节奏光剑 回放+添加模型</h1><h2 id="1、所需mod"><a href="#1、所需mod" class="headerlink" title="1、所需mod"></a>1、所需mod</h2><p>模型mod</p><p><img src="https://s2.loli.net/2024/09/29/hBHqV2aTtvQ5XxO.png" alt="image-20240929225531185"></p><p>重播mod</p><p><img src="https://s2.loli.net/2024/09/29/BQLPi5pjTeuGOJ1.png" alt="image-20240929225546683"></p><p>重播mod前置</p><p><img src="https://s2.loli.net/2024/09/29/w7qr2EF4jokQHeR.png" alt="image-20240929225556076"></p><h2 id="2、模型上传"><a href="#2、模型上传" class="headerlink" title="2、模型上传"></a>2、模型上传</h2><ol><li>头显连接wifi，开BMBF，进入tools查看ip</li><li>进入网页版点击 upload 上传后缀为 <strong><code>vrm</code></strong> 的模型文件即可</li><li>进入游戏在主页面左边的 <code>Avatar</code> 选择上传的模型</li></ol><p><img src="https://s2.loli.net/2024/09/29/WlqeSyGVAwPLdME.png" alt="image-20240929225728167"></p><h2 id="3、个人觉得不错的回放视角参数设置"><a href="#3、个人觉得不错的回放视角参数设置" class="headerlink" title="3、个人觉得不错的回放视角参数设置"></a>3、个人觉得不错的回放视角参数设置</h2><p>先上图</p><p><img src="https://s2.loli.net/2024/09/29/Dxbj7CSsMI5KiXu.gif" alt="com.beatgames.beatsaber-20240929-222933 00_00_24-00_00_30"></p><p>在回放设置里设置</p><p>以下设定 <strong>必须</strong> 得开 <strong>第三人称视角</strong> 不然会没法加载模型头部，而且也没法调整视角朝向</p><p>这里最后一行必须关，不然原版模型会挡住你的模型</p><p><img src="https://s2.loli.net/2024/09/29/XQtwSxOGL4YhRzd.png" alt="image-20240929230321408"></p><p><img src="https://s2.loli.net/2024/09/29/l194JEmObiyZ7Kj.png" alt="image-20240929230326436"></p><p>补充：最后一张图片从上往下是</p><p>摄像头位置</p><ol><li>左-右 </li><li>上-下</li><li>前-后</li></ol><p>视角朝向</p><ol><li>上-下</li><li>左-右</li><li>没试过嘿嘿</li></ol>]]></content>
+    
+    
+    <summary type="html">网上一个教程都没有，那我就来出教程</summary>
+    
+    
+    
+    <category term="游戏" scheme="https://blog.ifox.moe/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    
+    <category term="Quest" scheme="https://blog.ifox.moe/tags/Quest/"/>
+    
+    <category term="beatsaber" scheme="https://blog.ifox.moe/tags/beatsaber/"/>
+    
+  </entry>
   
   <entry>
     <title>githubPR方法</title>
