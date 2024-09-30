@@ -11,25 +11,7 @@
   </url>
   
   <url>
-    <loc>https://blog.ifox.moe/2024/07/25/githubPR/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.ifox.moe/2024/07/01/OverTheWireBandit/</loc>
-    
-    <lastmod>2024-07-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2024/07/01/webSecure/</loc>
     
     <lastmod>2024-07-16</lastmod>
     
@@ -41,42 +23,6 @@
     <loc>https://blog.ifox.moe/personal/index.html</loc>
     
     <lastmod>2023-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2023/05/16/DSMclash/</loc>
-    
-    <lastmod>2023-05-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2023/04/24/openwrt/</loc>
-    
-    <lastmod>2023-04-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2023/04/17/cfwarp/</loc>
-    
-    <lastmod>2023-04-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2023/04/08/WindowsUserNameChange/</loc>
-    
-    <lastmod>2023-04-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -136,37 +82,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://blog.ifox.moe/2022/05/20/hello/</loc>
-    
-    <lastmod>2023-03-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2022/05/19/imaMath/</loc>
-    
-    <lastmod>2022-05-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/2022/05/19/hexo%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98/</loc>
-    
-    <lastmod>2022-05-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://blog.ifox.moe/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,84 +93,21 @@
   
   <url>
     <loc>https://blog.ifox.moe/tags/Quest/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.ifox.moe/tags/beatsaber/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/Nas/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/Windows/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.ifox.moe/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/%E6%A2%AF%E5%AD%90/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/github/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/%E8%8C%B6%E4%BC%9A/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/OpenWRT/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/tags/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -260,28 +116,14 @@
   
   <url>
     <loc>https://blog.ifox.moe/categories/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.ifox.moe/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/categories/%E9%97%B2%E8%81%8A/</loc>
-    <lastmod>2024-09-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.ifox.moe/categories/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99/</loc>
-    <lastmod>2024-09-29</lastmod>
+    <lastmod>2024-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
