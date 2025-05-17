@@ -1,4 +1,4 @@
-https://blog.ifox.moe/2025/05/17/githubPR/
+https://blog.ifox.moe/2025/05/17/github_pull_request_record/
 https://blog.ifox.moe/2024/09/29/QuestBSReplay/
 https://blog.ifox.moe/2024/07/01/OverTheWireBandit/
 https://blog.ifox.moe/personal/index.html
