@@ -1,4 +1,5 @@
 https://blog.ifox.moe/2024/09/29/QuestBSReplay/
+https://blog.ifox.moe/2024/07/25/githubPR/
 https://blog.ifox.moe/2024/07/01/OverTheWireBandit/
 https://blog.ifox.moe/personal/index.html
 https://blog.ifox.moe/music/index.html
@@ -11,5 +12,6 @@ https://blog.ifox.moe/
 https://blog.ifox.moe/tags/Quest/
 https://blog.ifox.moe/tags/beatsaber/
 https://blog.ifox.moe/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/
+https://blog.ifox.moe/tags/github/
 https://blog.ifox.moe/categories/%E6%B8%B8%E6%88%8F/
 https://blog.ifox.moe/categories/%E5%AD%A6%E4%B9%A0/
